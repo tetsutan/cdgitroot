@@ -5,7 +5,7 @@ Script saving git/hg root to ~/.cdgitroot
 
 ``` sh
 # on .zsh
-[ -f $ZSH_CUSTOM/lazy/cdgitroot.zsh ] && source $ZSH_CUSTOM/lazy/cdgitroot.zsh
+[ -f $ZSH/cdgitroot.zsh ] && source $ZSH/cdgitroot.zsh
 
 function chpwd() {
   _reg_pwd_gitroot
